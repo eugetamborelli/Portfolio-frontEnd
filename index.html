@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playwrite+HR+Lijeva:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <!--La nav bar la hice para que la página se vea más estética y usar anchors pero luego quizás solo sea reemplazada por un botón de ir hacia arriba-->
+        
+        <ul>
+            <li><a href="#anchor1">Presentación</a></li>
+            <li><a href="#tabla">Tabla de tecnologías</a></li>
+            <li><a href="#form">Formulario</a></li>
+        </ul>
+        
+    </nav>
+
+    <main>
+        <!--Dividí el main en dos div para poder maquetar mejor esta sección de la página, además agregue una section para seguir utilizando etiquetas-->
+        <div class="div1" id="anchor1">
+             <img class="imagen1" src="./imagen_portfolio.png">
+             <section>
+                <h1>Hola! Bienvenidos a mi portfolio!</h1>
+                <p>Mi nombre es Eugenia y soy estudiante de la carrera Tec. en desarrollo de software en el instituto superior N° 29 de la ciudad de Buenos Aires.</p>
+             </section>
+        </div>
+
+        <div class="div2">
+            <!--La tabla seguramente será mejorada en la próxima entrega. Además estará mejor distribuidas las secciones de la página.-->
+            <table id="tabla">
+                <caption>Tecnologías Aprendidas</caption>
+                <tr>
+                    <th>Datos</th>
+                    <th>Lenguajes</th>
+                    <th>Diseño y otras</th>
+                </tr>
+                <tr>
+                    <td>Sql y bases relacionales</td>
+                    <td>Javascript</td>
+                    <td>Corel Draw</td>
+                </tr>
+                <tr>
+                    <td>Mongo BD</td>
+                    <td>Python</td>
+                    <td>Paquete Adobe</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>HTML y CSS</td>
+                    <td>Paquete Office</td>
+                </tr>
+            </table>
+
+            <p>Formulario de contacto</p>
+
+            <form action="" method="post" enctype="multipart/form-data" class="formulario" id="form">
+                <label id="name"> Nombre:<input type="text" name="name" value="" placeholder="Ingrese su nombre"></label>
+                <br>
+                <label id="lastName">Apellido:<input type="text" name="lastName" value="" placeholder="Ingrese su apellido"></label>
+                <br>
+                <label id="mail">Mail:<input type="text" name="mail" value="" placeholder="Ingrese su mail"></label>
+                <br>
+                <label id="phone">N° de Teléfono:<input type="text" name="phone" value="" placeholder="Ingrese su teléfono"></label>
+                <br>
+                <label id="comment">Comentarios:<input type="textarea" name="comment" value="" col="4" rows="6" placeholder="Ingrese texto..."></label>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <!--El footer lo agregue para que la página contenga más secciones. no cumple mucha funcionalidad... quizás agregue botones de redirección a linkedin por ejemplo-->
+        <p>Copyright 2025. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>

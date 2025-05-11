@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 10vh; 
+    color:whitesmoke;
+    background-color: #004e89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-family: "Playwrite HR Lijeva", cursive;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke ;
+    font-weight: bold;
+  }
+
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.imagen1 {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 0.8rem solid #004e89;
+    margin:10px;
+}
+
+section{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.div2{
+    display:flex;
+    flex-direction:column;
+}
+
+
+table {
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fdfaf6;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: #004e89;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    color: #1c1c1c;
+}
+
+th {
+    background-color: #004e89;
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f0fa;
+}
+
+tr:hover {
+    background-color: #d0e2f2;
+}
+
+.div2 p{
+    margin-top: 10rem;
+    color:#308bd1;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+    display: flex;
+    align-self: center;
+}
+
+
+.formulario{
+    max-width: 80rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius:0.5rem;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.438);
+    background-image: url(./fondo-form.png);
+    background-size: cover;
+    color:white;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulario label{
+    display:flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input,
+textarea {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    outline: 2px solid transparent;
+}
+
+
+.formulario button{
+    background-color: rgb(3, 31, 77);
+    color:white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease;
+}
+
+footer{
+    width: 100%;
+    height: 10vh; 
+    color:whitesmoke;
+    background-color: #004e89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
