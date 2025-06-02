@@ -217,11 +217,13 @@ footer{
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    padding: 2em;
     font-family: "Playwrite HR Lijeva", cursive;
 }
 
 .icons{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
